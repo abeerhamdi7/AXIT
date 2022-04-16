@@ -1,0 +1,133 @@
+.middle-image,.middle
+{ display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    
+    margin-top: 30px;
+    
+} 
+.middle
+{
+    justify-content: center;
+    background-image: url(https://preview.colorlib.com/theme/world/img/blog-img/xb4.jpg.pagespeed.ic.LdOhOhXA0d.webp);
+    width: 30%;
+    height: 200px;
+    background-size: 100% 300px;
+  
+   
+   position: relative;
+   animation-name: move3;
+   animation-duration: 3s;
+   animation-iteration-count: unset;
+
+}
+@keyframes move3
+{
+    0%{
+        top:400px;
+    }
+    100%{
+        top:50px;
+    }
+}
+
+    
+
+.middle button{
+    height: 25px;
+    display: block;
+
+    position: relative;
+    left: 0;
+    
+    
+}
+.middl2
+{
+    background-image: url(https://preview.colorlib.com/theme/world/img/blog-img/xb5.jpg.pagespeed.ic.jZY-CzMMWG.webp); 
+}
+.middle3
+{
+    background-image: url(https://preview.colorlib.com/theme/world/img/blog-img/xb6.jpg.pagespeed.ic.aXbP7WaRAn.webp)
+}
+.middle p
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.middle-image span{
+    color: rgb(192, 189, 189);}
+span:hover{
+    color: blue;
+    
+}
+
+
+
+/* custom3-style */
+.custom3-style
+{
+    display: flex;
+    height: 900px;
+    
+    box-shadow: 0 5px #faf8f8;
+    
+}
+
+.img-p2
+{
+    width: 100%;
+    height: 160px;
+    
+    
+}
+.custom3-style img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+.left-custom3
+{
+    
+    display: flex;
+    
+    height: 700px;
+    
+    justify-content: space-between;
+    
+}
+video
+{
+     width: 100%;
+     height: 180px;
+     margin-left: 0;
+    
+}
+
+
+.load
+{
+    width: 150px;
+    border-radius: 15px;
+    font-size: 18px;
+    border: 1px solid rgb(194, 191, 191);
+    text-align: center;
+    margin-left: 40%;
+    padding: 7px;
+    cursor: pointer;
+  
+    margin-bottom: 100px;
+
+}
+.v {
+    position:relative;
+    bottom: 200px;
+    
+}
+.aside2-right
+{
+    
+    padding-left: 0;
+}

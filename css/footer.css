@@ -1,0 +1,52 @@
+
+.content-footer,ul{
+    display: flex;
+
+}
+
+.footer
+{
+    background-color: black;
+    color: rgb(211, 208, 208);
+    height: 200px;
+}
+.content-footer{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.7;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 3%;
+    margin: auto;
+    align-items: center;
+
+
+}
+.left-footer{
+    width: 30%;
+   
+}
+input{
+
+    border: none;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    width: 100%;
+    background-color: black;
+    padding-bottom: 15px;
+} 
+.content-footer .next
+{
+    float: right;
+    position: relative;
+    bottom: 30px;
+    width: 15px;
+    color: rgb(211, 208, 208);
+    border: none;
+}
+.footer h1{
+    color: rgb(211, 208, 208);
+}
+.content-footer li:hover
+{
+    color: blue;
+}
